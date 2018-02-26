@@ -8,5 +8,8 @@
 
 
 # Bước 3: bắt đầu lọc email và tên
+## 3.1: Regex pattern = new Regex(@".+[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)"); đây là regex cho email và tên;
+## 3.2:sau đó là tạo một cái list để lưu từng dòng một;
+       $ List<string> kq = new List<string>(); 
 
 
