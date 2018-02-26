@@ -8,8 +8,13 @@
 
 
 # Bước 3: bắt đầu lọc email và tên
-## 3.1: Regex pattern = new Regex(@".+[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)"); đây là regex cho email và tên;
-## 3.2:sau đó là tạo một cái list để lưu từng dòng một;
-       $ List<string> kq = new List<string>(); 
+## 3.1: đây là regex cho email và tên; 
+       Regex pattern = new Regex(@".+[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)"); 
+## 3.2:sau đó là tạo một cái list ;
+        List<string> kq = new List<string>(); 
+## 3.2 :chúng ta dung vòng lặp while để mỗi lần chạy là thêm vào list;
+# Bước 4:chạy chương trình ;
+        dotnet run <tên file .txt>
+
 
 
