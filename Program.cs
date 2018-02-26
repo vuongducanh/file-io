@@ -10,7 +10,8 @@ namespace ReadText
     {
         static void Main(string[] args)
         {
-            String line = ""; try
+            String line = "";
+             try
             {
                 StreamReader sr = new StreamReader(args[0]); //đọc file 
                 StreamWriter sw = new StreamWriter("./email.txt"); // file vừa tạo lưu imail
